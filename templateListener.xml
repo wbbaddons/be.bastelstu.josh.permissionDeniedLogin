@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/templatelistener.xsd">
+	<import>
+		<!-- admin -->
+		<templatelistener name="permissionDeniedLogin">
+			<environment>user</environment>
+			<templatename>permissionDenied</templatename>
+			<eventname>content</eventname>
+			<templatecode><![CDATA[{include file='__permissionDeniedLoginField'}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>
